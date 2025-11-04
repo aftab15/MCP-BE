@@ -12,6 +12,7 @@ dotenv.config();
 const allowedOrigins = [
   "http://localhost:5173",
   "https://mcp-ui-nine.vercel.app", // ✅ your Vercel frontend
+  "https://mcp-be-0gqm.onrender.com/mcp"
 ];
 app.use(
   cors({
